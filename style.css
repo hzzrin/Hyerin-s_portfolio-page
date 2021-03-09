@@ -32,6 +32,7 @@ img {
     width: 100%;
     border-bottom: 1px solid;
     background-color: #f7f6f2;
+    z-index: 9
 }
 
 .navbar h1 {
@@ -122,9 +123,11 @@ img {
     background-size: cover;
     background-image: url(../Hyerin-s_portfolio-page/Screenshots/screenshot-top.png);
     position: relative;
+    outline: solid 0 #b2c0d6;
 }
 
 .card-header {
+    display: flex;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -142,6 +145,10 @@ footer {
     font-family:  'Montserrat';
     font-size: 12px;
     background-color: #edece8;
+}
+
+.card-main:hover {
+    outline-width: 8px;
 }
 
 a:hover {
